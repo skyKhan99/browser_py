@@ -352,7 +352,7 @@ class MainPage(QMainWindow):
         print("finished")
 
 
-Browser = QApplication(sys.argv)\n
+Browser = QApplication(sys.argv)
 QApplication.setApplicationName("GKHN Browser")
 QApplication.setWindowIcon(QIcon('C:/phytonicns/sendmessage.png'))
 screen = MainPage()
