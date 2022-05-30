@@ -327,7 +327,7 @@ class MainPage(QMainWindow):
 
     def contextMenuEvent(self, event):
         self.menus = QMenu()
-        action = self.menus.addAction(QIcon('C:/phytonicns/tabs.png'), 'New Tab')
+        action = self.menus.addAction(QIcon('icns/tabs.png'), 'New Tab')
         action.triggered.connect(self.add_new_tab)
         self.menus.popup(event.globalPos())
 
@@ -350,7 +350,7 @@ class MainPage(QMainWindow):
 
 Browser = QApplication(sys.argv)
 QApplication.setApplicationName("GKHN Browser")
-QApplication.setWindowIcon(QIcon('C:/phytonicns/sendmessage.png'))
+QApplication.setWindowIcon(QIcon('icns/sendmessage.png'))
 screen = MainPage()
 screen.show()
 Browser.exec()
