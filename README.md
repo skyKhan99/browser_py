@@ -2,6 +2,8 @@
 Simple internet browser writed with Python. (Chrome Based)
 This browser can surf internet, download mp3 on YouTube videos, show cryptocurriencies, test internet speed.
 
+![alt text](https://github.com/skyKhan99/browser_py/ss1.png?raw=true)
+
 Codes:
 from PyQt5.QtCore import *
 from PyQt5.QtGui import QIcon
