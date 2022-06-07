@@ -5,15 +5,24 @@ This browser can surf internet, download mp3 on YouTube videos, show cryptocurri
 ![Screenshot](ss1.png)
 
 Codes:
-from PyQt5.QtCore import *
-from PyQt5.QtGui import QIcon
-from PyQt5.QtWidgets import *
-from PyQt5.QtWebEngineWidgets import *
-import sys
-import speedtester
-import ccxt
-import threading
-import youtube_dl
+
+> from PyQt5.QtCore import *
+
+> from PyQt5.QtGui import QIcon
+
+> from PyQt5.QtWidgets import *
+
+> from PyQt5.QtWebEngineWidgets import *
+
+> import sys
+
+> import speedtester
+
+> import ccxt
+
+> import threading
+
+> import youtube_dl
 
 
 class MainPage(QMainWindow):
@@ -355,9 +364,14 @@ class MainPage(QMainWindow):
         print("finished")
 
 
-Browser = QApplication(sys.argv)
-QApplication.setApplicationName("GKHN Browser")
-QApplication.setWindowIcon(QIcon('C:/phytonicns/sendmessage.png'))
-screen = MainPage()
-screen.show()
-Browser.exec()
+> Browser = QApplication(sys.argv)
+
+> QApplication.setApplicationName("GKHN Browser")
+
+> QApplication.setWindowIcon(QIcon('C:/phytonicns/sendmessage.png'))
+
+> screen = MainPage()
+
+> screen.show()
+
+> Browser.exec()
